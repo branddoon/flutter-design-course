@@ -4,4 +4,6 @@ import 'package:flutter_design/model/ItemMenu/item_menu.dart';
 const dataItemsMenu = <ItemMenu> [
   ItemMenu(title: 'Button', subtitle: 'Button implementation', url: '/buttons', icon: Icons.radio_button_checked),
   ItemMenu(title: 'Card', subtitle: 'Card implementation', url: '/cards', icon: Icons.rectangle_outlined),
+  ItemMenu(title: 'Progress', subtitle: 'Progress implementation', url: '/progress', icon: Icons.hourglass_empty),
+  ItemMenu(title: 'Snackbar and dialog', subtitle: 'Snackbar and dialog implementation', url: '/snackbar', icon: Icons.message),
 ];
