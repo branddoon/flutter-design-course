@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('App bar'),
+        title: Text('Flutter desing'),
         backgroundColor: colors.primary,
       ),
       body: const Center(
