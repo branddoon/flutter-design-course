@@ -1,3 +1,4 @@
+export 'package:flutter_design/presentation/scroll/scroll_screen.dart';
 export 'package:flutter_design/presentation/ui_controls/ui_controls_screen.dart';
 export 'package:flutter_design/presentation/animated/animated_screen.dart';
 export 'package:flutter_design/presentation/slide/slide_screen.dart';
