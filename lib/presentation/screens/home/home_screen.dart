@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_design/data/data_items_menu.dart';
 import 'package:flutter_design/model/ItemMenu/item_menu.dart';
+import 'package:flutter_design/presentation/widgets/side_menu.dart';
 import 'package:go_router/go_router.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -12,7 +13,10 @@ class HomeScreen extends StatelessWidget {
 
     final colors = Theme.of(context).colorScheme;
 
+    final scaffoldKey = GlobalKey<ScaffoldState>();
+
     return Scaffold(
+      key: scaffoldKey,
       appBar: AppBar(
         title: Text('Flutter desing'),
         backgroundColor: colors.primary,
@@ -20,6 +24,7 @@ class HomeScreen extends StatelessWidget {
       body: const Center(
         child: HomeView()
       ),
+      drawer: SideMenu(scaffoldkey: scaffoldKey,),
     );
   }
 }

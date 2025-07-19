@@ -10,4 +10,5 @@ const dataItemsMenu = <ItemMenu> [
   ItemMenu(title: 'Animated', subtitle: 'Animated implementation', url: '/animated', icon: Icons.animation),
   ItemMenu(title: 'Ui-controls', subtitle: 'Ui-controls implementation', url: '/ui-controls', icon: Icons.gamepad),
   ItemMenu(title: 'Scroll', subtitle: 'Scroll and pull implementation', url: '/scroll', icon: Icons.list_alt_rounded),
+  ItemMenu(title: 'Counter', subtitle: 'Counter implementation', url: '/counter', icon: Icons.add_circle),
 ];
