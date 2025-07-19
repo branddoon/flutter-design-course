@@ -1,3 +1,4 @@
+export 'package:flutter_design/presentation/screens/theme/theme.dart';
 export 'package:flutter_design/presentation/screens/counter/counter_screen.dart';
 export 'package:flutter_design/presentation/screens/scroll/scroll_screen.dart';
 export 'package:flutter_design/presentation/screens/ui_controls/ui_controls_screen.dart';

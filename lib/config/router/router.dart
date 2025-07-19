@@ -14,6 +14,7 @@ final appRouter = GoRouter(
       GoRoute(path: '/animated', builder: (context, state) => AnimatedScreen()),
       GoRoute(path: '/ui-controls', builder: (context, state) => UiControlsScreen()),
       GoRoute(path: '/scroll', builder: (context, state) =>ScrollScreen()),          
-      GoRoute(path: '/counter', builder: (context, state) =>CounterScreen())                   
+      GoRoute(path: '/counter', builder: (context, state) =>CounterScreen()),      
+      GoRoute(path: '/theme', builder: (context, state) =>ThemeScreen())                   
     ]
 );
